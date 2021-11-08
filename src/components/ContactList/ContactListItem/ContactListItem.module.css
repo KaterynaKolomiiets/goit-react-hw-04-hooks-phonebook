@@ -1,0 +1,14 @@
+.li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:rgb(236, 235, 235);
+  padding: 10px;
+  border-radius: 5px;
+}
+.li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.button {
+  background-color: rgb(236, 235, 235);
+}
